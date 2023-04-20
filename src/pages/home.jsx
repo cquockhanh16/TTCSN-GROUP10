@@ -1,20 +1,20 @@
 import React from 'react'
-import banner from '../assest/images/banner.webp';
-import sale1 from '../assest/images/discount_img1.webp';
-import sale2 from '../assest/images/discount_img2.webp';
-import hwbanner from '../assest/images/hw-banner.webp';
-import npbanner from '../assest/images/new_product_banner.webp';
-import ppbanner from '../assest/images/price_product_banner.webp';
-import fpbanner from '../assest/images/family_product_banner.webp';
-import dpbanner from '../assest/images/dissun_product_banner.webp';
-import { faHand } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import banner from '../assest/images/home/banner.webp';
+import sale1 from '../assest/images/home/discount_img1.webp';
+import sale2 from '../assest/images/home/discount_img2.webp';
+import hwbanner from '../assest/images/home/hw-banner.webp';
+import npbanner from '../assest/images/home/new_product_banner.webp';
+import ppbanner from '../assest/images/home/price_product_banner.webp';
+import fpbanner from '../assest/images/home/family_product_banner.webp';
+import dpbanner from '../assest/images/home/dissun_product_banner.webp';
 
-import { happyWeekend, newProduct, priceProduct, familyProduct, dissunProduct, messages} from '../assest/products/products';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
+
+import { happyWeekend, newProduct, priceProduct, familyProduct, dissunProduct, messages} from '../assest/products/products-home';
 export const Home = () => {
   return (
     <main>
-        <FontAwesomeIcon icon={faHand} />
         <section className='banner'>
           <img src={banner} alt="" />
         </section>
@@ -34,7 +34,7 @@ export const Home = () => {
             <div className='container_p'>
               <div className='banner'>
                 <img src={hwbanner} alt="" />
-              </div>
+              </div>  
               <div className='product__list'>
                 {
                     happyWeekend.map((product) => (
@@ -43,7 +43,7 @@ export const Home = () => {
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
-                            Love
+                            <FontAwesomeIcon icon={faHeart} />
                           </button>
                         </span>
                         <span className='product__name'>
@@ -72,7 +72,7 @@ export const Home = () => {
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
-                            Love
+                            <FontAwesomeIcon icon={faHeart} />
                           </button>
                         </span>
                         <span className='product__name'>
@@ -101,7 +101,7 @@ export const Home = () => {
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
-                            Love
+                            <FontAwesomeIcon icon={faHeart} />
                           </button>
                         </span>
                         <span className='product__name'>
@@ -130,7 +130,7 @@ export const Home = () => {
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
-                            Love
+                            <FontAwesomeIcon icon={faHeart} />
                           </button>
                         </span>
                         <span className='product__name'>
@@ -159,7 +159,7 @@ export const Home = () => {
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
-                            Love
+                            <FontAwesomeIcon icon={faHeart} />
                           </button>
                         </span>
                         <span className='product__name'>

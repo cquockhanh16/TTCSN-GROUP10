@@ -6,7 +6,6 @@ import { Famale } from "./pages/female";
 import { Male } from "./pages/male";
 import { Kid } from "./pages/kid";
 import { Price } from "./pages/price";
-import { New } from "./pages/new";
 import { CanifaZ } from "./pages/canifaz";
 import {Footer} from './components/footer'
 import {
@@ -25,7 +24,6 @@ function App() {
           <Route path='/nam' element={<Male/>} exact/>
           <Route path='/treem' element={<Kid/>} exact/>
           <Route path='/giatot' element={<Price/>} exact/>
-          <Route path='/moi' element={<New/>} exact/>
           <Route path='/canifaz' element={<CanifaZ/>} exact/>
         </Routes>
         <Footer/>

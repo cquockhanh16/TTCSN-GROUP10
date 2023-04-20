@@ -1,9 +1,9 @@
 import React from 'react'
-import qrcode from '../assest/images/qrcode.png';
-import ggplay from '../assest/images/dowload-ggplay.png'
-import appstore from '../assest/images/dowload-appstore.png'
-import credit from '../assest/images/credit.svg'
-import mark from '../assest/images/mark.png'
+import qrcode from '../assest/images/home/qrcode.png';
+import ggplay from '../assest/images/home/dowload-ggplay.png'
+import appstore from '../assest/images/home/dowload-appstore.png'
+import credit from '../assest/images/home/credit.svg'
+import mark from '../assest/images/home/mark.png'
 
 export const Footer = () => {
   return (

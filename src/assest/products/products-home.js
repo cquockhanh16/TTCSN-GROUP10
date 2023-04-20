@@ -1,26 +1,26 @@
-import hw1 from '../images/hw1.webp'
-import hw2 from '../images/hw2.webp'
-import hw3 from '../images/hw3.webp'
+import hw1 from '../images/home/hw1.webp'
+import hw2 from '../images/home/hw2.webp'
+import hw3 from '../images/home/hw3.webp'
 
-import np1 from '../images/new_product1.jpg'
-import np2 from '../images/new_product2.jpg'
-import np3 from '../images/new_product3.jpg'
+import np1 from '../images/home/new_product1.jpg'
+import np2 from '../images/home/new_product2.jpg'
+import np3 from '../images/home/new_product3.jpg'
 
-import pp1 from '../images/price_product1.webp'
-import pp2 from '../images/price_product2.webp'
-import pp3 from '../images/price_product3.webp'
+import pp1 from '../images/home/price_product1.webp'
+import pp2 from '../images/home/price_product2.webp'
+import pp3 from '../images/home/price_product3.webp'
 
-import fp1 from '../images/family_product1.webp'
-import fp2 from '../images/family_product2.webp'
-import fp3 from '../images/family_product3.webp'
+import fp1 from '../images/home/family_product1.webp'
+import fp2 from '../images/home/family_product2.webp'
+import fp3 from '../images/home/family_product3.webp'
 
-import dp1 from '../images/dissun_product1.webp'
-import dp2 from '../images/dissun_product2.webp'
-import dp3 from '../images/dissun_product3.webp'
+import dp1 from '../images/home/dissun_product1.webp'
+import dp2 from '../images/home/dissun_product2.webp'
+import dp3 from '../images/home/dissun_product3.webp'
 
-import ca1 from '../images/canifalife1.webp';
-import ca2 from '../images/canifalife2.webp';
-import ca3 from '../images/canifalife3.webp';
+import ca1 from '../images/home/canifalife1.webp';
+import ca2 from '../images/home/canifalife2.webp';
+import ca3 from '../images/home/canifalife3.webp';
 
 const happyWeekend = [
     {

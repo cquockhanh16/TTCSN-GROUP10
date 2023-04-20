@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Logo from '../assest/images/logo.svg';
+import Logo from '../assest/images/home/logo.svg';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faStore } from '@fortawesome/free-solid-svg-icons';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
-import { faHand } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Navbar = () => {
@@ -256,10 +255,6 @@ export const Navbar = () => {
                 </span>
 
                 <span>
-                    <Link to='/moi'>MỚI</Link>
-                </span>
-
-                <span>
                     <Link to='/canifaz'>CANIFA Z</Link>
                 </span>
             </div>
@@ -278,9 +273,6 @@ export const Navbar = () => {
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faBagShopping} />
-                </div>
-                <div>
-                <FontAwesomeIcon icon={faHand} />
                 </div>
             </div>
         </nav>
