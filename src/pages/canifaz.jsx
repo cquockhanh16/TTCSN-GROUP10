@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navbarprice from './page_price/Navbarprice'
+import { Outlet } from "react-router-dom";
+import Navbarcanifaz from './page_canifaz/Navbarcanifaz';
 
-export const CanifaZ
- = () => {
+export const Canifaz = () => {
   return (
-    <main>
-      
-    </main>
+    <div className='dai'>
+         <Navbarcanifaz/>
+         <div>
+          <Outlet/>
+         </div>   
+    </div>
   )
 }

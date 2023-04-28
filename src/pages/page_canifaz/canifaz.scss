@@ -1,0 +1,150 @@
+
+.headercanifaz{
+    margin-top: 90px;
+    p{  
+        padding: 0 -40px;
+        background-color: #63b1bc;
+        height: 40px;
+        line-height:40px ;
+        text-align: center;
+        color:#fff;
+        font-size: 14px;
+        font-weight: 700;
+        
+    }
+    .headerr{
+        padding: 0 40px;
+        img{
+        margin: 21px 0;
+        width: 100%;
+        height: auto;
+        }    
+        .headerlink{
+            width: 100%;
+            margin: 40px 0 20px;
+            ul{
+                list-style-type: none;
+                display: flex;
+                li{
+                    display: block;
+                    width: 20%;
+                    height: 80px;
+                    background-color: #195f6b;
+                    text-align: center;
+                    position: relative;
+                    a{
+                        width: 100%;
+                        color:white;
+                        display: block;
+                        line-height: 80px;
+                        background-color:#195f6b;
+                        font-size: 26px;
+                        font-weight: 700;
+                    }
+                    .active{
+                        background-color:#1a4751;
+                        color:#fff;
+                    }
+                    // .active:before{
+                    //     content: "";
+                    //     background: #da291c;
+                    //     border-radius: 5px;
+                    //     height: 6px;
+                    //     width: 25px;
+                    //     position: absolute;
+                    //     left: 50%;
+                    //     top: 52px;
+                    //     margin-left: -12px;
+                    // }
+                    
+                }
+                li:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.product__list{
+    margin: 0 40px ;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    row-gap: 50px;
+    .product__item{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .add__cart{
+            position: absolute;
+            top: 35%;
+            right: 50%;
+            transform: translateX(50%);
+            padding: 12px 15px;
+            text-transform: uppercase;
+            color: #121212;
+            font-weight: 500;
+            background-color: #ffffff;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: none;
+            z-index: 100;
+            transition: 0.3s;
+        }
+        .product__img{
+            cursor: pointer;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            button{
+                cursor: pointer;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                padding: 10px 12px;
+                font-weight: 600;
+                font-size: 13px;
+                background-color: #fff;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+                transition: 0.3s;
+            }
+            button:hover{
+                background-color: plum;
+                color: #fff;
+            }
+        }
+        .product__name{
+            font-size: 15px;
+        }
+        .product__name:hover{
+            color: red;
+        }
+        .product__price{
+            font-weight: 500;
+            color: #202020;
+            font-size: 16px;
+        }
+        .product__pricez{
+            font-weight: 500px;
+            font-size: 16px;
+            color:#c8c7cc;
+            text-decoration: line-through;
+        }
+        .product__color{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+    }
+    .product__item:hover{
+        .add__cart{
+            display: inline;
+        }
+    }
+}

@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navbarprice from './page_price/Navbarprice'
+import { Outlet } from "react-router-dom";
 
 export const Price = () => {
   return (
-    <div>Price</div>
+    <div className='dai'>
+         <Navbarprice/>
+         <div>
+          <Outlet/>
+         </div>   
+    </div>
   )
 }
 
