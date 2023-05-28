@@ -1,35 +1,39 @@
 import React from 'react'
-import banner1 from '../assest/images/treem/banner1.webp';
-import banner2 from '../assest/images/treem/banner2.webp';
-import banner3 from '../assest/images/treem/banner3.webp';
+import { connect } from 'react-redux';
+import banner1 from '../assest/images/female/banner.webp';
+import banner2 from '../assest/images/female/banner2.webp';
+import banner3 from '../assest/images/female/banner3.webp';
 
-import dc from '../assest/images/treem/discount-banner.webp'
-import ts from '../assest/images/treem/aophong-banner.webp'
-import ds from '../assest/images/treem/dissun-banner.webp'
+import dc from '../assest/images/female/product-discount-banner.webp'
+import ts from '../assest/images/female/ao-phong-banner.webp'
+import ds from '../assest/images/female/dissun-banner.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
-import { dissunProducts, discountProducts, tshirtProducts } from '../assest/products/products-treem';
+import { dissunProducts, discountProducts, tshirtProducts } from '../assest/products/products-female';
 
 
-export const Kid = () => {
-  return (
-    <main>
+class Female extends React.Component{
+  handleOnClick = (product) => {
+    this.props.addProduct(product)
+  }
+  render(){
+    return(
+      <main>
       <section className='container redirect'>
         <div>
           <span>
             <a href="/">Trang chủ</a>
           </span>
           <span className='line'></span>
-          <span>Trẻ em</span>
+          <span>Nữ</span>
         </div>
       </section>
-
       <section className='product container'>
-          <div className='banner'>
-            <img src={banner1} alt="" />
-          </div>
-          <h3 className='space'>Sản phẩm giảm giá</h3>
+        <div className='banner'>
+          <img src={banner1} alt="" />
+        </div>
+          <h3>Sản phẩm giảm giá</h3>
           <div className='container_p'>
             <div className='banner'>
               <img src={dc} alt="" />
@@ -38,7 +42,7 @@ export const Kid = () => {
               {
                   discountProducts.map((product) => (
                     <div className='product__item'>
-                      <button className='add__cart'>Thêm vào giỏ hàng</button>
+                      <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                       <span className='product__img'>
                         <img src={product.productImg} alt="" />
                         <button>
@@ -49,8 +53,18 @@ export const Kid = () => {
                         {product.productName}
                       </span>
                       <span className='product__price'>
-                        {product.productPrice}
+                        {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                       </span>
+                      <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                     </div>
                   ))
               }
@@ -71,7 +85,7 @@ export const Kid = () => {
               {
                   tshirtProducts.map((product) => (
                     <div className='product__item'>
-                      <button className='add__cart'>Thêm vào giỏ hàng</button>
+                      <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                       <span className='product__img'>
                         <img src={product.productImg} alt="" />
                         <button>
@@ -82,8 +96,18 @@ export const Kid = () => {
                         {product.productName}
                       </span>
                       <span className='product__price'>
-                        {product.productPrice}
+                        {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                         </span>
+                        <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                     </div>
                   ))
               }
@@ -104,7 +128,7 @@ export const Kid = () => {
               {
                   dissunProducts.map((product) => (
                     <div className='product__item'>
-                      <button className='add__cart'>Thêm vào giỏ hàng</button>
+                      <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                       <span className='product__img'>
                         <img src={product.productImg} alt="" />
                         <button>
@@ -115,14 +139,38 @@ export const Kid = () => {
                         {product.productName}
                       </span>
                       <span className='product__price'>
-                        {product.productPrice}
+                        {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                         </span>
+                        <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                     </div>
                   ))
               }
             </div>
           </div>
       </section>
-    </main>
-  )
+  </main>
+    )
+  }
 }
+
+
+const mapStateToProps = (state) => {
+  return {products: state.products}
+}
+
+const mapDispatchToProps = (dispacth) => {
+  return{
+    addProduct : (product) => dispacth({type: 'ADD_PRODUCT', payload: product}) 
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Female)

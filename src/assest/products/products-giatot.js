@@ -89,129 +89,177 @@ const gall  = [
         id : 1,
         productImg: gall1,
         productName: "Pack 5 đôi tất nữ",
-        productPrice: "99.000 ₫",
-        productPricez: "149.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "99000",
+        category: "gt-all",
+        productPricez: "149000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: gall2,
         productName: "Áo polo bé gái in nhỏ",
-        productPrice: "179.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "179000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: gall3,
         productName: "Áo polo nữ",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-all",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 4,
         productImg: gall4,
         productName: "Áo polo bé trai",
-        productPrice: "179.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "179000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 5,
         productImg: gall5,
         productName: "Áo polo nam",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "299000",
+        category: "gt-all",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 6,
         productImg: gall6,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 7,
         productImg: gall7,
         productName: "Áo polo nam",
-        productPrice: "269.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "269000",
+        category: "gt-all",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 8,
         productImg: gall8,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 9,
         productImg: gall9,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 10,
         productImg: gall10,
         productName: "Áo phông nam có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 11,
         productImg: gall11,
         productName: "Áo phông nữ in nhỏ",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 12,
         productImg: gall12,
         productName: "Áo phông nam",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 13,
         productImg: gall13,
         productName: "Áo phông nữ có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 14,
         productImg: gall14,
         productName: "Áo polo nam",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "299000",
+        category: "gt-all",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 15,
         productImg: gall15,
         productName: "Áo polo nữ",
-        productPrice: "179.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "179000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 16,
         productImg: gall16,
         productName: "Áo phông nữ có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-all",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -220,129 +268,177 @@ const gnu  = [
         id : 1,
         productImg: gnu1,
         productName: "Quần mặc nhà nữ hoạ tiết",
-        productPrice: "169.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "169000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: gnu2,
         productName: "Áo polo nữ",
-        productPrice: "299.000 ₫",
-        productPricez: "369.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "299000",
+        category: "gt-nu",
+        productPricez: "369000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: gnu3,
         productName: "Áo phông nữ in nhỏ",
-        productPrice: "169.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 4,
         productImg: gnu4,
         productName: "Áo phông nữ",
-        productPrice: "169.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 5,
         productImg: gnu5,
         productName: "Áo phông nữ",
-        productPrice: "199.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "199000",
+        category: "gt-nu",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 6,
         productImg: gnu6,
         productName: "Áo phông nữ",
-        productPrice: "169.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 7,
         productImg: gnu7,
         productName: "Áo phông nữ",
-        productPrice: "169.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 8,
         productImg: gnu8,
         productName: "Áo phông nữ",
-        productPrice: "129.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "129000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 9,
         productImg: gnu9,
         productName: "Áo phông nữ",
-        productPrice: "149.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "149000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 10,
         productImg: gnu10,
         productName: "Áo phông nữ",
-        productPrice: "129.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "129000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 11,
         productImg: gnu11,
         productName: "Áo phông nữ",
-        productPrice: "129.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "129000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 12,
         productImg: gnu12,
         productName: "Áo phông nữ",
-        productPrice: "129.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "129000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 13,
         productImg: gnu13,
         productName: "Áo phông nữ cổ tròn",
-        productPrice: "129.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "129000",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 14,
         productImg: gnu14,
         productName: "Váy liền nữ",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "299000",
+        category: "gt-nu",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 15,
         productImg: gnu15,
         productName: "Váy liền nữ",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-nu",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 16,
         productImg: gnu16,
         productName: "Váy liền nữ",
-        productPrice: "149.500 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "149500",
+        category: "gt-nu",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -351,129 +447,177 @@ const gnam  = [
         id : 1,
         productImg: gnam1,
         productName: "Áo polo nam",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "299000",
+        category: "gt-nam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: gnam2,
         productName: "Áo polo nam",
-        productPrice: "249.000 ₫",
-        productPricez: "359.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "249000",
+        category: "gt-nam",
+        productPricez: "359000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: gnam3,
         productName: "Áo polo nam",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-nam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 4,
         productImg: gnam4,
         productName: "Áo polo nam",
-        productPrice: "249.000 ₫",
-        productPricez: "359.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "249000",
+        category: "gt-nam",
+        productPricez: "359000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 5,
         productImg: gnam5,
         productName: "Áo polo nam cotton USA",
-        productPrice: "124.500 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "124500",
+        category: "gt-nam",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 6,
         productImg: gnam6,
         productName: "Áo phông nam có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 7,
         productImg: gnam7,
         productName: "Áo phông nam",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 8,
         productImg: gnam8,
         productName: "Áo phông nam in nhỏ",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 9,
         productImg: gnam9,
         productName: "Áo phông nam",
-        productPrice: "149.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "149000",
+        category: "gt-nam",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 10,
         productImg: gnam10,
         productName: "Áo phông nam",
-        productPrice: "149.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "149000",
+        category: "gt-nam",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 11,
         productImg: gnam11,
         productName: "Áo phông nam",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 12,
         productImg: gnam12,
         productName: "Áo phông nam",
-        productPrice: "149.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "149000",
+        category: "gt-nam",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 13,
         productImg: gnam13,
         productName: "Áo phông nam cổ tim",
-        productPrice: "149.000 ₫",
-        productPricez: "269.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "149000",
+        category: "gt-nam",
+        productPricez: "269000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 14,
         productImg: gnam14,
         productName: "Áo phông nam có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 15,
         productImg: gnam15,
         productName: "Áo phông nam có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-nam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 16,
         productImg: gnam16,
         productName: "Áo sơ mi nam ngắn tay",
-        productPrice: "349.000 ₫",
-        productPricez: "469.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "349000",
+        category: "gt-nam",
+        productPricez: "469000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -482,129 +626,177 @@ const gbegai = [
         id : 1,
         productImg: gbegai1,
         productName: "Áo khoác gió bé gái hoạ tiết",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "299000",
+        category: "gt-benu",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: gbegai2,
         productName: "Váy liền bé gái có hình in",
-        productPrice: "179.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "179000",
+        category: "gt-benu",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: gbegai3,
         productName: "Váy liền bé gái có hình in",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 4,
         productImg: gbegai4,
         productName: "Váy liền bé gái có hình in",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 5,
         productImg: gbegai5,
         productName: "Váy liền bé gái",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 6,
         productImg: gbegai6,
         productName: "Váy liền bé gái",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 7,
         productImg: gbegai7,
         productName: "Váy liền bé gái",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 8,
         productImg: gbegai8,
         productName: "Váy liền bé gái cotton US",
-        productPrice: "79.000 ₫",
-        productPricez: "129.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "79000",
+        category: "gt-benu",
+        productPricez: "129000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 9,
         productImg: gbegai9,
         productName: "Váy liền bé gái",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 10,
         productImg: gbegai10,
         productName: "Váy liền bé gái có hình in",
-        productPrice: "149.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "149000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 11,
         productImg: gbegai11,
         productName: "Áo phông nam",
-        productPrice: "169.000 ₫",
-        productPricez: "279.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-benu",
+        productPricez: "279000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 12,
         productImg: gbegai12,
         productName: "Quần soóc bé gái",
-        productPrice: "129.000 ₫",
-        productPricez: "259.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "129000",
+        category: "gt-benu",
+        productPricez: "259000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 13,
         productImg: gbegai13,
         productName: "Quần soóc bé gái",
-        productPrice: "99.000 ₫",
-        productPricez: "159.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "99000",
+        category: "gt-benu",
+        productPricez: "159000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 14,
         productImg: gbegai14,
         productName: "Áo khoác bé gái hoạ tiết",
-        productPrice: "249.000 ₫",
-        productPricez: "359.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "249000",
+        category: "gt-benu",
+        productPricez: "359000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 15,
         productImg: gbegai15,
         productName: "Áo khoác gió bé gái",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-benu",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 16,
         productImg: gbegai16,
         productName: "Áo khoác gió bé gái",
-        productPrice: "299.000 ₫",
-        productPricez: "399.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-benu",
+        productPricez: "399000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -613,129 +805,177 @@ const gbetrai = [
         id : 1,
         productImg: gbetrai1,
         productName: "Áo polo bé trai",
-        productPrice: "179.000 ₫",
-        productPricez: "299.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "179000",
+        category: "gt-benam",
+        productPricez: "299000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: gbetrai2,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "gt-benam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: gbetrai3,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-benam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 4,
         productImg: gbetrai4,
         productName: "Áo polo bé trai có hình in",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "gt-benam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 5,
         productImg: gbetrai5,
         productName: "Áo polo bé trai",
-        productPrice: "169.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "169000",
+        category: "gt-benam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 6,
         productImg: gbetrai6,
         productName: "Áo khoác bé trai hoạ tiết",
-        productPrice: "249.000 ₫",
-        productPricez: "369.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "249000",
+        category: "gt-benam",
+        productPricez: "369000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 7,
         productImg: gbetrai7,
         productName: "Áo khoác gió bé trai hoạ tiết",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 8,
         productImg: gbetrai8,
         productName: "Áo khoác gió bé trai",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 9,
         productImg: gbetrai9,
         productName: "Áo khoác gió bé trai hoạ tiết",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 10,
         productImg: gbetrai10,
         productName: "Áo khoác gió bé trai",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 11,
         productImg: gbetrai11,
         productName: "Áo khoác gió bé trai",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 12,
         productImg: gbetrai12,
         productName: "Áo khoác bé trai",
-        productPrice: "249.000 ₫",
-        productPricez: "369.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "249000",
+        category: "gt-benam",
+        productPricez: "369000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 13,
         productImg: gbetrai13,
         productName: "Áo khoác gió bé trai",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#046bc7"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 14,
         productImg: gbetrai14,
         productName: "Áo khoác gió bé trai hoạ tiết",
-        productPrice: "299.000 ₫",
-        productPricez: "389.000 ₫",
-        productColor: "#a98a79"
+        productPrice: "299000",
+        category: "gt-benam",
+        productPricez: "389000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 15,
         productImg: gbetrai15,
         productName: "Bộ mặc nhà bé trai in to",
-        productPrice: "179.000 ₫",
-        productPricez: "289.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "179000",
+        category: "gt-benam",
+        productPricez: "289000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 16,
         productImg: gbetrai16,
         productName: "Bộ mặc nhà bé trai in to",
-        productPrice: "199.000 ₫",
-        productPricez: "299.000 ₫",
-        productColor: "#a8b6e3"
+        productPrice: "199000",
+        category: "gt-benam",
+        productPricez: "299000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 

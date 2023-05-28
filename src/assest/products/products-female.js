@@ -16,25 +16,34 @@ const discountProducts = [
         id : 1,
         productImg: dp1,
         productName: "Quần legging nữ",
-        productPrice: "99.000 đ",
-        productDiscount: "299.000 đ",
-        productColor: "#046bc7"
+        productPrice: "99000",
+        productPricez: "299000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: dp2,
         productName: "Áo phông nữ xoắn xéo",
-        productPrice: "199.000 đ",
-        productDiscount: "399.000 đ",
-        productColor: "#a98a79"
+        productPrice: "199000",
+        productPricez: "399000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: dp3,
         productName: "Áo phông nữ thắt dây",
-        productPrice: "124.000 đ",
-        productDiscount: "249.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "124000",
+        productPricez: "249000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 const tshirtProducts = [
@@ -42,22 +51,31 @@ const tshirtProducts = [
         id : 1,
         productImg: tp1,
         productName: "Áo phông nữ in nhỏ",
-        productPrice: "159.000 đ",
-        productColor: "#046bc7"
+        productPrice: "159000",
+        category: "fm-tp",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: tp2,
         productName: "Áo phông nữ",
-        productPrice: "169.000 đ",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "fm-tp",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: tp3,
         productName: "Áo phông nữ",
-        productPrice: "169.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "fm-tp",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -66,22 +84,31 @@ const dissunProducts = [
         id : 1,
         productImg: dsp1,
         productName: "Áo phông nam in hình",
-        productPrice: "449.000 đ",
-        productColor: "#046bc7"
+        productPrice: "449000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: dsp2,
         productName: "Áo phông nam kẻ",
-        productPrice: "499.000 đ",
-        productColor: "#a98a79"
+        productPrice: "499000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: dsp3,
         productName: "Áo phông nam in Winnie th Pooh",
-        productPrice: "479.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "479000",
+        category: "fm-dc",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 

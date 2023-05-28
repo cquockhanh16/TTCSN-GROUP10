@@ -1,4 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { connect } from 'react-redux';
+
 import banner from '../assest/images/home/banner.webp';
 import sale1 from '../assest/images/home/discount_img1.webp';
 import sale2 from '../assest/images/home/discount_img2.webp';
@@ -12,9 +14,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 import { happyWeekend, newProduct, priceProduct, familyProduct, dissunProduct, messages} from '../assest/products/products-home';
-export const Home = () => {
-  return (
-    <main>
+
+class Home extends React.Component {
+  handleOnClick = (product) => {
+    this.props.addProduct(product)
+  }
+  render(){
+    return(
+      <main>
         <section className='banner'>
           <img src={banner} alt="" />
         </section>
@@ -38,8 +45,8 @@ export const Home = () => {
               <div className='product__list'>
                 {
                     happyWeekend.map((product) => (
-                      <div className='product__item'>
-                        <button className='add__cart'>Thêm vào giỏ hàng</button>
+                      <div className='product__item' >
+                        <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
@@ -50,8 +57,18 @@ export const Home = () => {
                           {product.productName}
                         </span>
                         <span className='product__price'>
-                          {product.productPrice}
+                          {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                         </span>
+                        <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                       </div>
                     ))
                 }
@@ -68,7 +85,7 @@ export const Home = () => {
                 {
                     newProduct.map((product) => (
                       <div className='product__item'>
-                        <button className='add__cart'>Thêm vào giỏ hàng</button>
+                        <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
@@ -79,8 +96,18 @@ export const Home = () => {
                           {product.productName}
                         </span>
                         <span className='product__price'>
-                          {product.productPrice}
+                          {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                           </span>
+                          <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                       </div>
                     ))
                 }
@@ -97,7 +124,7 @@ export const Home = () => {
                 {
                     priceProduct.map((product) => (
                       <div className='product__item'>
-                        <button className='add__cart'>Thêm vào giỏ hàng</button>
+                        <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
@@ -108,8 +135,18 @@ export const Home = () => {
                           {product.productName}
                         </span>
                         <span className='product__price'>
-                          {product.productPrice}
+                          {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                           </span>
+                          <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                       </div>
                     ))
                 }
@@ -126,7 +163,7 @@ export const Home = () => {
                 {
                     familyProduct.map((product) => (
                       <div className='product__item'>
-                        <button className='add__cart'>Thêm vào giỏ hàng</button>
+                        <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
@@ -137,8 +174,18 @@ export const Home = () => {
                           {product.productName}
                         </span>
                         <span className='product__price'>
-                          {product.productPrice}
+                          {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                           </span>
+                          <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                       </div>
                     ))
                 }
@@ -155,7 +202,7 @@ export const Home = () => {
                 {
                     dissunProduct.map((product) => (
                       <div className='product__item'>
-                        <button className='add__cart'>Thêm vào giỏ hàng</button>
+                        <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
                           <button>
@@ -166,8 +213,18 @@ export const Home = () => {
                           {product.productName}
                         </span>
                         <span className='product__price'>
-                          {product.productPrice}
+                          {Number(product.productPrice).toLocaleString('vi', {style : 'currency', currency : 'VND'})}
                           </span>
+                          <div className='list-color'>
+                            {
+                              product.productColor.map(color => {
+                                return(
+                                  <span className='product__color' style={{backgroundColor: `${color}`}}>
+                                </span>
+                                )
+                              })
+                            }
+                        </div>
                       </div>
                     ))
                 }
@@ -201,5 +258,18 @@ export const Home = () => {
           </button>
         </section>
     </main>
-  )
+    )
+  }
 }
+
+const mapStateToProps = (state) => {
+  return {products: state.products}
+}
+
+const mapDispatchToProps = (dispacth) => {
+  return{
+    addProduct : (product) => dispacth({type: 'ADD_PRODUCT', payload: product}) 
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home)

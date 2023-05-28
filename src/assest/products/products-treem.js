@@ -16,22 +16,31 @@ const discountProducts = [
         id : 1,
         productImg: dp1,
         productName: "Áo phông bé gái cotton USA",
-        productPrice: "79.000 đ",
-        productColor: "#046bc7"
+         category: "treem-dp",
+        productPrice: "79000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: dp2,
         productName: "Áo phông bé gái",
-        productPrice: "49.000 đ",
-        productColor: "#a98a79"
+         category: "treem-dp",
+        productPrice: "49000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: dp3,
         productName: "Áo phông bé gái Việt Nam",
-        productPrice: "79.000 đ",
-        productColor: "#a8b6e3"
+         category: "treem-dp",
+        productPrice: "79000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 const tshirtProducts = [
@@ -39,22 +48,31 @@ const tshirtProducts = [
         id : 1,
         productImg: tp1,
         productName: "Áo phông trẻ em unisex",
-        productPrice: "169.000 đ",
-        productColor: "#046bc7"
+         category: "treem-tp",
+        productPrice: "169000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: tp2,
         productName: "Áo phông trẻ em có hình in",
-        productPrice: "149.000 đ",
-        productColor: "#a98a79"
+         category: "treem-tp",
+        productPrice: "149000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: tp3,
         productName: "Áo phông trẻ em có hình in Gamer",
-        productPrice: "149.000 đ",
-        productColor: "#a8b6e3"
+         category: "treem-tp",
+        productPrice: "149000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -63,22 +81,31 @@ const dissunProducts = [
         id : 1,
         productImg: dsp1,
         productName: "Áo khoắc chống nắng unisex cho trẻ em",
-        productPrice: "329.000 đ",
-        productColor: "#046bc7"
+         category: "treem-dp",
+        productPrice: "329000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: dsp2,
         productName: "Áo khoắc chống nắng unisex cho trẻ em",
-        productPrice: "329.000 đ",
-        productColor: "#a98a79"
+         category: "treem-dp",
+        productPrice: "329000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: dsp3,
         productName: "Áo khoắc chống nắng unisex cho trẻ em",
-        productPrice: "329.000 đ",
-        productColor: "#a8b6e3"
+         category: "treem-dp",
+        productPrice: "329000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 

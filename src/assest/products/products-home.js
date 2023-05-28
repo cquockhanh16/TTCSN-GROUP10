@@ -27,22 +27,31 @@ const happyWeekend = [
         id : 1,
         productImg: hw1,
         productName: "Áo phông nam in hình",
-        productPrice: "249.000 đ",
-        productColor: "#046bc7"
+        productPrice: "249000",
+        category: "hw",
+        productColor: [
+            "#046bc7", "#dfb6e3", "#FFDB11"
+        ]
     },
     {
         id : 2,
         productImg: hw2,
         productName: "Áo phông nam kẻ",
-        productPrice: "399.000 đ",
-        productColor: "#a98a79"
+        productPrice: "399000",
+        category: "hw",
+        productColor: [
+            "#046bc7", "#2c2c56", "#8c5f2f"
+        ]
     },
     {
         id : 3,
         productImg: hw3,
         productName: "Áo phông nam in Winnie th Pooh",
-        productPrice: "279.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "279000",
+        category: "hw",
+        productColor: [
+            "#b882d6", "#4682ba", "#8170a0"
+        ]
     }
 ]
 const newProduct = [
@@ -50,22 +59,31 @@ const newProduct = [
         id : 1,
         productImg: np1,
         productName: "Áo phông unisex lớn có hình",
-        productPrice: "279.000 đ",
-        productColor: "#046bc7"
+        productPrice: "279000",
+        category: "home-np",
+        productColor: [
+            "#779dd6", "#496058", "#070507"
+        ]
     },
     {
         id : 2,
         productImg: np2,
         productName: "Áo phông unisex lớn có hình",
-        productPrice: "279.000 đ",
-        productColor: "#a98a79"
+        productPrice: "279000",
+        category: "home-np",
+        productColor: [
+            "#e683ef", "#dd409c", "#21161a"
+        ]
     },
     {
         id : 3,
         productImg: np3,
         productName: "Áo phông unisex lớn có hình",
-        productPrice: "279.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "279000",
+        category: "home-np",
+        productColor: [
+            "#24562a", "#62d6c2", "#0f8226"
+        ]
     }
 ]
 const priceProduct = [
@@ -73,22 +91,31 @@ const priceProduct = [
         id : 1,
         productImg: pp1,
         productName: "Áo polo bé giá in nhỏ",
-        productPrice: "279.000 đ",
-        productColor: "#046bc7"
+        productPrice: "279000",
+        category: "home-pp",
+        productColor: [
+            "#360f42", "#720337", "#c7ff3a"
+        ]
     },
     {
         id : 2,
         productImg: pp2,
         productName: "Áo polo nữ",
-        productPrice: "279.000 đ",
-        productColor: "#a98a79"
+        productPrice: "279000",
+        category: "home-pp",
+        productColor: [
+            "#3b5141", "#4f79bc", "#efa913"
+        ]
     },
     {
         id : 3,
         productImg: pp3,
         productName: "Áo polo bé trai",
-        productPrice: "279.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "279000",
+        category: "home-pp",
+        productColor: [
+            "#436348", "#5b2984", "#8c1e29"
+        ]
     }
 ]
 const familyProduct = [
@@ -96,22 +123,31 @@ const familyProduct = [
         id : 1,
         productImg: fp1,
         productName: "Áo phông nữ in Winnie the Pooth",
-        productPrice: "279.000 đ",
-        productColor: "#046bc7"
+        productPrice: "279000",
+        category: "home-fp",
+        productColor: [
+            "#ace082", "#9ebee5", "#a06b6f"
+        ]
     },
     {
         id : 2,
         productImg: fp2,
         productName: "Áo phông nữ in Winnie the Pooth",
-        productPrice: "169.000 đ",
-        productColor: "#a98a79"
+        productPrice: "169000",
+        category: "home-fp",
+        productColor: [
+            "#046313", "#2fb7ae", "#95889b"
+        ]
     },
     {
         id : 3,
         productImg: fp3,
         productName: "Áo phông unisex trẻ em",
-        productPrice: "169.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "169000",
+        category: "home-fp",
+        productColor: [
+            "#959ea0", "#37375b", "#f966c1"
+        ]
     }
 ]
 const dissunProduct  = [
@@ -119,22 +155,31 @@ const dissunProduct  = [
         id : 1,
         productImg: dp1,
         productName: "Áo khoác chống nắng nam",
-        productPrice: "449.000 đ",
-        productColor: "#046bc7"
+        productPrice: "449000",
+        category: "home-dsp",
+        productColor: [
+            "#350916", "#f430ba", "#070c06"
+        ]
     },
     {
         id : 2,
         productImg: dp2,
         productName: "Áo khoác chống nắng nữ",
-        productPrice: "449.000 đ",
-        productColor: "#a98a79"
+        productPrice: "449000",
+        category: "home-dsp",
+        productColor: [
+            "#f966c1", "#6e773f", "#d7d9e8"
+        ]
     },
     {
         id : 3,
         productImg: dp3,
         productName: "Áo khoác chống nắng nam",
-        productPrice: "449.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "449000",
+        category: "home-dsp",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 

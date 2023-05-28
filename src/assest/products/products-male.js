@@ -16,25 +16,34 @@ const discountProducts = [
         id : 1,
         productImg: dc1,
         productName: "Quần jeans nam slimfit cotton USA",
-        productPrice: "349.000 đ",
-        productDiscount: "699.000 đ",
-        productColor: "#046bc7"
+        productPrice: "349000",
+        category: "male-dp",
+        productPricez: "699000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: dc2,
         productName: "Áo phông nam cotton USA in hình",
-        productPrice: "124.000 đ",
-        productDiscount: "249.000 đ",
-        productColor: "#a98a79"
+        productPrice: "124000",
+        category: "male-dp",
+        productPricez: "249000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: dc3,
         productName: "Áo phông nam cotton in hình",
-        productPrice: "149.000 đ",
-        productDiscount: "299.000 đ",
-        productColor: "#a8b6e3"
+        productPrice: "149000",
+        category: "male-dp",
+        productPricez: "299000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 const tshirtProducts = [
@@ -42,22 +51,31 @@ const tshirtProducts = [
         id : 1,
         productImg: tshirt1,
         productName: "Áo phông nam có hình in",
-        productPrice: "169.000 đ",
-        productColor: "#046bc7"
+        category: "male-tp",
+        productPrice: "169000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: tshirt2,
         productName: "Áo phông nam có hình in nhỏ",
-        productPrice: "169.000 đ",
-        productColor: "#a98a79"
+        category: "male-tp",
+        productPrice: "169000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: tshirt3,
         productName: "Áo phông nam",
-        productPrice: "169.000 đ",
-        productColor: "#a8b6e3"
+        category: "male-tp",
+        productPrice: "169000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
@@ -66,22 +84,31 @@ const trouserProdcuts = [
         id : 1,
         productImg: quan1,
         productName: "Quần soóc nam",
-        productPrice: "249.000 đ",
-        productColor: "#046bc7"
+        category: "male-trs",
+        productPrice: "249000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 2,
         productImg: quan2,
         productName: "Quần soóc active nam",
-        productPrice: "199.000 đ",
-        productColor: "#a98a79"
+        category: "male-trs",
+        productPrice: "199000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     },
     {
         id : 3,
         productImg: quan3,
         productName: "Quần soóc nỉ nam",
-        productPrice: "249.000 đ",
-        productColor: "#a8b6e3"
+        category: "male-trs",
+        productPrice: "249000",
+        productColor: [
+            "#d3bbb3", "#e3f2e1", "#ce5644"
+        ]
     }
 ]
 
