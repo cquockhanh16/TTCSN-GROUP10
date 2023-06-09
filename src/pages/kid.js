@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import React from 'react'
+import { SliderComponent } from '../components/SliderComponent';
 import banner1 from '../assest/images/treem/banner1.webp';
 import banner2 from '../assest/images/treem/banner2.webp';
 import banner3 from '../assest/images/treem/banner3.webp';
@@ -31,7 +32,7 @@ class Kid extends React.Component{
   
         <section className='product container'>
             <div className='banner'>
-              <img src={banner1} alt="" />
+            <SliderComponent arrImages={[banner1, banner2, banner3]}/>
             </div>
             <h3 className='space'>Sản phẩm giảm giá</h3>
             <div className='container_p'>

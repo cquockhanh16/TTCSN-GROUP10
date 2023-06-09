@@ -1,7 +1,9 @@
 import React from 'react';
 import './price.scss'
+import { SliderComponent } from '../../components/SliderComponent';
 import { Link } from 'react-router-dom';
 import banner from '../../assest/images/giatot/banner.webp'
+import banner2 from '../../assest/images/giatot/banner2.webp'
 
 
 class Navbarprice extends React.Component {
@@ -20,7 +22,9 @@ class Navbarprice extends React.Component {
            <div className='container'>
             <div className='headerprice'> 
            <div className='headerr'>
-            <img src={banner} alt='banner'/>
+           <section className='banner'>
+          <SliderComponent arrImages={[banner, banner2]}/>
+        </section>
             <div className='headerlink'>
               <ul>
                   <li> <Link  onClick={(e) => this.handlerClick(e)} className='links active' to='/giatot'> TẤT CẢ </Link> </li>

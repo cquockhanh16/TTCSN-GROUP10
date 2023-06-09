@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');:root{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root{
     --color-gray: #616161;
     --color-light-gray: #868686;
     --color-black: #202020;
@@ -768,4 +769,26 @@ footer {
     width: 3000px;
     height: 2000px;
     z-index: -100;
+}
+
+.slick-arrow {
+    z-index: 1000;
+    opacity: 0.5;
+    width: 80px;
+    height: 150px;
+}
+
+.slick-arrow::before{
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+
+.slick-prev{
+    left: 0;
+}
+
+.slick-next{
+    right: 0;
 }

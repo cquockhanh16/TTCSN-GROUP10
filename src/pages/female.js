@@ -1,4 +1,5 @@
 import React from 'react'
+import { SliderComponent } from '../components/SliderComponent';
 import { connect } from 'react-redux';
 import banner1 from '../assest/images/female/banner.webp';
 import banner2 from '../assest/images/female/banner2.webp';
@@ -30,9 +31,9 @@ class Female extends React.Component{
         </div>
       </section>
       <section className='product container'>
-        <div className='banner'>
-          <img src={banner1} alt="" />
-        </div>
+      <section className='banner'>
+          <SliderComponent arrImages={[banner1, banner2, banner3]}/>
+        </section>
           <h3>Sản phẩm giảm giá</h3>
           <div className='container_p'>
             <div className='banner'>

@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import { connect } from 'react-redux';
 
 import banner from '../assest/images/home/banner.webp';
+import banner2 from '../assest/images/home/banner2.webp';
+import banner3 from '../assest/images/home/banner3.webp';
 import sale1 from '../assest/images/home/discount_img1.webp';
 import sale2 from '../assest/images/home/discount_img2.webp';
 import hwbanner from '../assest/images/home/hw-banner.webp';
@@ -9,6 +11,7 @@ import npbanner from '../assest/images/home/new_product_banner.webp';
 import ppbanner from '../assest/images/home/price_product_banner.webp';
 import fpbanner from '../assest/images/home/family_product_banner.webp';
 import dpbanner from '../assest/images/home/dissun_product_banner.webp';
+import { SliderComponent } from '../components/SliderComponent';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
@@ -16,6 +19,7 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { happyWeekend, newProduct, priceProduct, familyProduct, dissunProduct, messages} from '../assest/products/products-home';
 
 class Home extends React.Component {
+
   handleOnClick = (product) => {
     this.props.addProduct(product)
   }
@@ -23,7 +27,7 @@ class Home extends React.Component {
     return(
       <main>
         <section className='banner'>
-          <img src={banner} alt="" />
+          <SliderComponent arrImages={[banner, banner2, banner3]}/>
         </section>
         <section className='sale container'>
           <h3>Ưu đãi riêng bạn</h3>

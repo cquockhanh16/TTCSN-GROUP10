@@ -77,7 +77,7 @@ handleHideCart = () => {
                               product.productPricez || product.productPrice
                               ?
                               <>
-                                <p>{(Number(product.productPrice) * product.quanity).toLocaleString('vi', {style : 'currency', currency : 'VND'})} </p>
+                                <p>{(Number(product.productPrice) * product.quanity).toLocaleString('vn', {style : 'currency', currency : 'VND'})} </p>
                               {
                                 <p hidden>
                                   {total +=  Number(product.productPrice) * product.quanity}
@@ -86,7 +86,7 @@ handleHideCart = () => {
                               </>
                               :
                               <>
-                                <p>{(Number(product.productPricez) * product.quanity).toLocaleString('vi', {style : 'currency', currency : 'VND'})}</p>
+                                <p>{(Number(product.productPricez) * product.quanity).toLocaleString('vn', {style : 'currency', currency : 'VND'})}</p>
                               {
                                 <p hidden>
                                   {total += Number(product.productPricez) * product.quanity } 
