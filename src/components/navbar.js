@@ -28,7 +28,7 @@ class Navbar extends React.Component{
                     <div className='navbar__links'>
                         <span>
                             <Link to='/'  onClick={(e) => {this.handlerClick(e)}} className='nav__item logo'> 
-                                <img src={Logo} />
+                                <img src={Logo} alt='logo'/>
                             </Link>
                         </span>
         

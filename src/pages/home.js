@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { connect } from 'react-redux';
 
 import banner from '../assest/images/home/banner.webp';
@@ -48,8 +48,8 @@ class Home extends React.Component {
               </div>  
               <div className='product__list'>
                 {
-                    happyWeekend.map((product) => (
-                      <div className='product__item' >
+                    happyWeekend.map((product, index) => (
+                      <div className='product__item' key={index}>
                         <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
@@ -87,8 +87,8 @@ class Home extends React.Component {
               </div>
               <div className='product__list'>
                 {
-                    newProduct.map((product) => (
-                      <div className='product__item'>
+                    newProduct.map((product, index) => (
+                      <div className='product__item' key={index}>
                         <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
@@ -126,8 +126,8 @@ class Home extends React.Component {
               </div>
               <div className='product__list'>
                 {
-                    priceProduct.map((product) => (
-                      <div className='product__item'>
+                    priceProduct.map((product, index) => (
+                      <div className='product__item' key={index}>
                         <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
@@ -165,8 +165,8 @@ class Home extends React.Component {
               </div>
               <div className='product__list'>
                 {
-                    familyProduct.map((product) => (
-                      <div className='product__item'>
+                    familyProduct.map((product, index) => (
+                      <div className='product__item' key={index}>
                         <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
@@ -204,8 +204,8 @@ class Home extends React.Component {
               </div>
               <div className='product__list'>
                 {
-                    dissunProduct.map((product) => (
-                      <div className='product__item'>
+                    dissunProduct.map((product, index) => (
+                      <div className='product__item' key={index}>
                         <button className='add__cart' onClick={() => {this.handleOnClick(product)}}>Thêm vào giỏ hàng</button>
                         <span className='product__img'>
                           <img src={product.productImg} alt="" />
@@ -239,8 +239,8 @@ class Home extends React.Component {
           <h3>#canifalife</h3>
           <div>
             {
-              messages.map((mes) => (
-                <div>
+              messages.map((mes, index) => (
+                <div key={index}>
                   <span>
                     <img src={mes.img} alt="" />
                   </span>

@@ -54,17 +54,13 @@ handleHideCart = () => {
             
           {
               products.map((product, index) => {
-                {
-                  console.log(product)
-                }
-
                 return(
                   <>
                     <div className='cart-products' key={index}>
 
                       <div className='cart-container'>
                         <div className='product-img col-2'>
-                          <img src={product.productImg}/>
+                          <img src={product.productImg} alt='product-img'/>
                         </div>
                         <div className='product-content col-10'>
                           <div className='product-name'> 
@@ -125,7 +121,7 @@ handleHideCart = () => {
             <div className='cart-empty'>
               <button onClick={() => this.handleHideCart()}>x</button>
               <div>
-                <img src={emptyCart}/>
+                <img src={emptyCart} alt='image-empty'/>
               </div>
               <p>Chưa có sản phẩm trong giỏ hàng của bạn.</p>
             </div>
